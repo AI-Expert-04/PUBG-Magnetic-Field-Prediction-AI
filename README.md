@@ -67,7 +67,7 @@ https://github.com/pubg/api-assets/tree/master/Assets
 
 ['그룹 스테이지 B Day1'](https://www.youtube.com/watch?v=a88Haj7ckMQ&feature=youtu.be)
 
-## 그룹 스테이지 A
+### 그룹 스테이지 A
 ['그룹 스테이지 A Day3'](https://www.youtube.com/watch?v=wnmSiqfpeFM)
 
 ['그룹 스테이지 A Day2'](https://www.youtube.com/watch?v=wnmSiqfpeFM&feature=youtu.be)
