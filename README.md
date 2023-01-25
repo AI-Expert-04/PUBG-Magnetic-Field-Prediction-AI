@@ -8,3 +8,6 @@ Use deep learning to predict PUBG magnetic fields
 1페이지 서클 중심을 기반으로 데이터를 분석하여 2페이지 자기장 예측
 
 https://pubg.fandom.com/wiki/The_Playzone
+
+pubg 공식 api
+https://documentation.pubg.com/en/usage.html
