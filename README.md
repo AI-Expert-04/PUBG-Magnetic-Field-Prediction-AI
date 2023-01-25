@@ -27,3 +27,6 @@ http://wiki.mathnt.net/index.php?title=%EC%B5%9C%EB%8B%A8%EC%8B%9C%EA%B0%84%EA%B
 # 비행기 동선 
 https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=youar88&logNo=221257790487
 
+# 공식 github
+https://github.com/pubg/api-assets/tree/master/Assets
+
