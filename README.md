@@ -34,11 +34,10 @@ https://github.com/pubg/api-assets/tree/master/Assets
 # battleground E-Sports Youtube
 ## PGC 2022
 ### 그랜드 파이널
-그랜드_파이널_Day4 [Link](https://youtu.be/Tb-0ALijTxk)
-YouTube [Link](https://www.youtube.com/watch?v=xjyxl7CHh_0)
-그랜드 파이널 Day3 [Link](https://youtu.be/Gr6NeBmVmrM)
-그랜드 파이널 Day2 [Link](https://youtu.be/v8PYsixhr60)
-그랜드 파이널 Day1[Link](https://youtu.be/-hbmgfmdcMc)
+그랜드 파이널 Day4 [Link](https://www.youtube.com/watch?v=Tb-0ALijTxk&feature=youtu.be)
+그랜드 파이널 Day3 [Link](https://www.youtube.com/watch?v=Gr6NeBmVmrM)
+그랜드 파이널 Day2 [Link](https://www.youtube.com/watch?v=v8PYsixhr60)
+그랜드 파이널 Day1 [Link](https://www.youtube.com/watch?v=-hbmgfmdcMc&feature=youtu.be)
 
 ### 그랜드 서바이벌
 https://youtu.be/I4Fg32X1CXI
