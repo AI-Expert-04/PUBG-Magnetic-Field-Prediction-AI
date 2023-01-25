@@ -43,26 +43,38 @@ https://github.com/pubg/api-assets/tree/master/Assets
 ['그랜드 파이널 Day1'](https://www.youtube.com/watch?v=-hbmgfmdcMc&feature=youtu.be)
 
 ### 그랜드 서바이벌
-https://youtu.be/I4Fg32X1CXI
+['그랜드 서바이벌 Day1'](https://www.youtube.com/watch?v=I4Fg32X1CXI&feature=youtu.be)
 
 ### 패자 브래킷2
+['패자 브래킷2 Day2']()
+['패자 브래킷2 Day1']()
 https://youtu.be/SusxiA5KRm0
 https://youtu.be/EgD6oOugJpU
 
 ### 패자 브래킷1
+['패자 브래킷1 Day2']()
+['패자 브래킷1 Day1']()
 https://youtu.be/_cPaCFo1YY8
 https://youtu.be/HZVm7waWBmM
 
 ### 승자 브래킷
+['승자 브래킷 Day2']()
+['승자 브래킷 Day1']()
 https://youtu.be/iavwvzgoSQY
 https://youtu.be/iavwvzgoSQY
 
 ### 그룹 스테이지 B
+['그룹 스테이지 B Day3']()
+['그룹 스테이지 B Day2']()
+['그룹 스테이지 B Day1']()
 https://youtu.be/EcvZ7BkjiV8
 https://youtu.be/mlvk57nDq_A
 https://youtu.be/a88Haj7ckMQ
 
 ## 그룹 스테이지 A
+['그룹 스테이지 A Day3']()
+['그룹 스테이지 A Day2']()
+['그룹 스테이지 A Day1']()
 https://youtu.be/wnmSiqfpeFM
 https://youtu.be/TikU2LBGhsc
 https://youtu.be/buQvBspU4Jo
