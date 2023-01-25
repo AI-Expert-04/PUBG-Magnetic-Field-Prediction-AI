@@ -15,6 +15,7 @@ https://pubg.fandom.com/wiki/The_Playzone
 pubg 공식 api
 https://documentation.pubg.com/en/usage.html
 https://pubgmap.io/ko/erangel.html?/v2/21/45psdn/BLeG/W4s199b
+https://tracker.gg/pubg/
 
 
 https://pc114.tistory.com/258
