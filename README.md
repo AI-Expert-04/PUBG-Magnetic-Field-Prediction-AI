@@ -30,3 +30,36 @@ https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=youar88&logN
 # 공식 github
 https://github.com/pubg/api-assets/tree/master/Assets
 
+
+# battleground E-Sports Youtube
+## PGC 2022
+### 그랜드 파이널
+https://youtu.be/Tb-0ALijTxk
+https://youtu.be/Gr6NeBmVmrM
+https://youtu.be/v8PYsixhr60
+https://youtu.be/-hbmgfmdcMc
+
+### 그랜드 서바이벌
+https://youtu.be/I4Fg32X1CXI
+
+### 패자 브래킷2
+https://youtu.be/SusxiA5KRm0
+https://youtu.be/EgD6oOugJpU
+
+### 패자 브래킷1
+https://youtu.be/_cPaCFo1YY8
+https://youtu.be/HZVm7waWBmM
+
+### 승자 브래킷
+https://youtu.be/iavwvzgoSQY
+https://youtu.be/iavwvzgoSQY
+
+### 그룹 스테이지 B
+https://youtu.be/EcvZ7BkjiV8
+https://youtu.be/mlvk57nDq_A
+https://youtu.be/a88Haj7ckMQ
+
+## 그룹 스테이지 A
+https://youtu.be/wnmSiqfpeFM
+https://youtu.be/TikU2LBGhsc
+https://youtu.be/buQvBspU4Jo
