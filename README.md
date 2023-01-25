@@ -35,6 +35,7 @@ https://github.com/pubg/api-assets/tree/master/Assets
 ## PGC 2022
 ### 그랜드 파이널
 그랜드 파이널 Day4 [Link](https://youtu.be/Tb-0ALijTxk)
+YouTube [Link](https://www.youtube.com/watch?v=xjyxl7CHh_0)
 그랜드 파이널 Day3 [Link](https://youtu.be/Gr6NeBmVmrM)
 그랜드 파이널 Day2 [Link](https://youtu.be/v8PYsixhr60)
 그랜드 파이널 Day1[Link](https://youtu.be/-hbmgfmdcMc)
