@@ -4,6 +4,7 @@ Use deep learning to predict PUBG magnetic fields
 ![tabel](image/pubgmap.io_erangel.png) 
 
 ## 필한 기술
+image data -> game data -> training 
 
 ## 정의
 
