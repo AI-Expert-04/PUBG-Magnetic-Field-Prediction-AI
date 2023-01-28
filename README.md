@@ -6,6 +6,11 @@ Use deep learning to predict PUBG magnetic fields
 ## 필한 기술
 image data -> game data -> training 
 
+## data
+- airplane route image
+- 1 paze
+- 2 paze
+
 ## 정의
 
 에란겔 비행기 노선 데이터들을 분석하여 1페이지 자기장을 예측
