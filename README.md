@@ -6,6 +6,9 @@ Use deep learning to predict PUBG magnetic fields
 ## 필한 기술
 image data -> game data -> training 
 
+## 사용 언어
+- Python
+
 ## data
 - airplane route image
 - 1 paze
