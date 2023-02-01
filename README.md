@@ -9,10 +9,14 @@ image data -> game data -> training
 ## 사용 언어
 - Python
 
+## 패키지
+PUBG_python
+
 ## data
 - airplane route image
 - 1 paze
 - 2 paze
+
 
 ## 정의
 dkdkdk
