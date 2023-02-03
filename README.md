@@ -10,7 +10,7 @@ image data -> game data -> training
 - Python
 
 ## 패키지
-PUBG_python.
+PUBG_python
 
 ## data
 - airplane route image
