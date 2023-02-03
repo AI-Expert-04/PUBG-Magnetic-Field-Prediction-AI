@@ -19,7 +19,6 @@ PUBG_python
 
 ## 문제 발생
 -heatmappy 라이브러리가 mac os 기준 안됨. 계속 해결해가려고 노력중. 
-너무 어려룽
 
 ## 정의
 dkdkdk
