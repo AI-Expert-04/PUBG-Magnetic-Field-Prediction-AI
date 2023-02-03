@@ -272,7 +272,6 @@ def main(argv):
         elif opt in ("-t", "--timed"):
             timed = True
 
-
     if not player_name or server is None:
         print('Forgot to enter the player name or server.')
         print('pubgheatmap.py -p <playername> -s <server> -o <outputfile>')
