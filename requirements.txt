@@ -1,0 +1,3 @@
+pubg_python
+generate-heatmap==0.2.1
+Pillow
