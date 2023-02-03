@@ -200,6 +200,7 @@ def getMatchHeatmap(api, match):
 
     return heatmapImg
 
+
 def getMatchTimedHeatmap(api, match):
     """
     Make a heatmap of players activity of the match distributed by time.
