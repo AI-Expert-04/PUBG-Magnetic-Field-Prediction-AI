@@ -238,6 +238,7 @@ def getMatchTimedHeatmap(api, match):
 
     return heatmapImgs
 
+
 def main(argv):
     player_name = ''
     server = None
