@@ -128,6 +128,7 @@ def getTelemetryRedZonesLocationsByTime(telemetry, scale_coeff):
 
     return zonesDictByTime
 
+
 def getTelemetryPlanePath(telemetry, scale_coeff):
     player_positions_events = telemetry.events_from_type('LogPlayerPosition')
 
