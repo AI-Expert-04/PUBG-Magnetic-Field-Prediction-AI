@@ -1,5 +1,5 @@
 from pubg_python import PUBG, Shard
-from heatmappy import Heatmapper
+from .heatmappy import Heatmapper
 from PIL import Image, ImageDraw, ImageTk
 from collections import defaultdict
 import sys, getopt
@@ -178,7 +178,7 @@ def buildTimedHeatMap(pointsList, circlesCoords, redCoords, planePath, imgFile_p
 
 def getMatchHeatmap(api, match):
     """
-    Make a heatmap of players activity of the match.
+    Make a heatmappy.py of players activity of the match.
     :param match: pubg_python.match object
     :return: PIL Image
     """
@@ -203,7 +203,7 @@ def getMatchHeatmap(api, match):
 
 def getMatchTimedHeatmap(api, match):
     """
-    Make a heatmap of players activity of the match distributed by time.
+    Make a heatmappy.py of players activity of the match distributed by time.
     :param match: pubg_python.match object
     :return: list of tuples (int, PIL Image)
     """
@@ -256,9 +256,9 @@ def main(argv):
         if opt == '-h':
             print('pubgheatmap.py -p <playername> -s <server> [-t/--timed] [-o <outputfile>]')
             print('Allowed servers: pc-as, pc-eu, pc-krjp, pc-na, pc-oc, pc-sa, pc-sea')
-            print('Example of a static match heatmap: pubgheatmap.py -p tetraquark -s pc-eu -o heatmap.jpg')
-            print('Example of a temporal heatmap: pubgheatmap.py -p tetraquark -s pc-eu -t')
-            print('In temporal heatmap frame, you can use the left or right arrow keys to rewind.')
+            print('Example of a static match heatmappy.py: pubgheatmap.py -p tetraquark -s pc-eu -o heatmappy.py.jpg')
+            print('Example of a temporal heatmappy.py: pubgheatmap.py -p tetraquark -s pc-eu -t')
+            print('In temporal heatmappy.py frame, you can use the left or right arrow keys to rewind.')
             print('')
             sys.exit()
         elif opt in ("-p", "--playername"):
@@ -293,8 +293,8 @@ def main(argv):
     print('Done.')
 
     if not timed:
-        print('Trying to build the match heatmap.')
-        # get match heatmap (PIL image file)
+        print('Trying to build the match heatmappy.py.')
+        # get match heatmappy.py (PIL image file)
         heatmapImg = getMatchHeatmap(api=api, match=match)
 
         # save image to the file

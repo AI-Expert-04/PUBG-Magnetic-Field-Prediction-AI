@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: heatmap
+Version: 0.1
+Summary: Package to combine image and heat map
+Home-page: http://github.com/durandtibo/heatmap
+Author: Thibaut Durand
+Author-email: durand.tibo@gmail.com
+License: MIT
+License-File: LICENSE
