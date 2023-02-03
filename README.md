@@ -18,7 +18,7 @@ PUBG_python
 - 2 paze
 
 ## 문제 발생
--heatmappy 라이브러리가 mac os 기준 안됨. 계속 해결해가려고 노력중. 
+-heatmappy 라이브러리가 mac os 기준 안됨. 계속 해결해가려고 노력중
 
 ## 정의
 dkdkdk
