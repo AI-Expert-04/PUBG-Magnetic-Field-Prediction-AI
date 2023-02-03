@@ -12,6 +12,7 @@ image data -> game data -> training
 ## 패키지
 PUBG_python
 
+
 ## data
 - airplane route image
 - 1 paze
