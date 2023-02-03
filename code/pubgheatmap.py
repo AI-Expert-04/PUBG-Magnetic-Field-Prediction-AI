@@ -175,6 +175,7 @@ def buildTimedHeatMap(pointsList, circlesCoords, redCoords, planePath, imgFile_p
     heatmapImg = heatmapper.heatmap_on_img(pointsList, mapimg)
     return heatmapImg
 
+
 def getMatchHeatmap(api, match):
     """
     Make a heatmap of players activity of the match.
