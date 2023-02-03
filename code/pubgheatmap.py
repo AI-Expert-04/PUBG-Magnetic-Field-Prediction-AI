@@ -144,6 +144,7 @@ def getTelemetryPlanePath(telemetry, scale_coeff):
 
     return [(round(x0 / scale_coeff), round(y0 / scale_coeff)), angle]
 
+
 def buildTimedHeatMap(pointsList, circlesCoords, redCoords, planePath, imgFile_path):
     mapimg = Image.open(imgFile_path).convert('RGBA')
 
