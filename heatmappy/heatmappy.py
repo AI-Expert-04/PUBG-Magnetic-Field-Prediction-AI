@@ -3,6 +3,7 @@ from functools import partial
 import io
 import os
 import random
+
 from matplotlib.colors import LinearSegmentedColormap
 import numpy
 from PIL import Image
@@ -101,7 +102,6 @@ class Heatmapper:
             return Image.alpha_composite(base_img.convert('RGBA'), heatmap)
         else:
             return heatmap
-
 
     def heatmap_on_img_path(self, points, base_path):
         width, height = Image.open(base_path).size

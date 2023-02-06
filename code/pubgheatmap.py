@@ -1,5 +1,5 @@
 from pubg_python import PUBG, Shard
-from heatmappy import Heatmapper
+from heatmappy import
 from PIL import Image, ImageDraw, ImageTk
 from collections import defaultdict
 import sys, getopt
