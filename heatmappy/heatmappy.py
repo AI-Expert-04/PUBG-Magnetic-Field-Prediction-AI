@@ -3,8 +3,7 @@ from functools import partial
 import io
 import os
 import random
-
-from matplotlib.colors import LinearSegmentedColormap
+from matplotlib.color import LinearSegmentedColormap
 import numpy
 from PIL import Image
 
@@ -30,12 +29,12 @@ class Heatmapper:
                  colours='default',
                  grey_heatmapper='PIL'):
         """
-        :param opacity: opacity (between 0 and 1) of the generated heatmappy overlay
+        :param opacity: opacity (between 0 and 1) of the generated heatmap overlay
         :param colours: Either 'default', 'reveal',
                         OR the path to horizontal image which will be converted to a scale
                         OR a matplotlib LinearSegmentedColorMap instance.
         :param grey_heatmapper: Required to draw points on an image as a greyscale
-                                heatmappy. If not using the default, this must be an object
+                                heatmap. If not using the default, this must be an object
                                 which fulfils the GreyHeatmapper interface.
         """
 
