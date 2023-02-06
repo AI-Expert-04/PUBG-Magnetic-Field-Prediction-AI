@@ -1,5 +1,7 @@
+# python pubgheatmap.py -p CNN_Algorithm -s pc-as -o my_static_heatmap.jpg -m b7e8d783-bb0c-4608-bd4f-b15d55f00d57
+# python pubgheatmap.py -p b7e8d783-bb0c-4608-bd4f-b15d55f00d57 -s pc-as -t
 from pubg_python import PUBG, Shard
-from heatmappy import
+from heatmappy.heatmap import Heatmapper
 from PIL import Image, ImageDraw, ImageTk
 from collections import defaultdict
 import sys, getopt
@@ -9,15 +11,14 @@ import random
 from slider_gallery_frame import SliderGalleryFrame
 import tkinter as tk
 
-API_KEY = ''
-
-ERANGEL_MAP_IMG_PATH = 'data/img/erangel_map.jpg'
+API_KEY = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI0MzkzYTNiMC03ZWM0LTAxM2ItNGU0Ni0wYjMxMjcwM2U2NjYiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNjc0NjQwNTAzLCJwdWIiOiJibHVlaG9sZSIsInRpdGxlIjoicHViZyIsImFwcCI6InB1YmctbWFnbmV0aWMtIn0.tkl8OUjhe8ZUQ4rjEIE2PepLhccIU75wtgZozCnHfoM'
+ERANGEL_MAP_IMG_PATH = '..data/img/erangel_map.jpg'
 MIRAMAR_MAP_IMG_PATH = 'data/img/miramar_map.jpg'
 SANHOK_MAP_IMG_PATH = 'data/img/sanhok_map.jpg'
 
 MAPS_IMGS_PATHS = {'Desert_Main': MIRAMAR_MAP_IMG_PATH, 'Erangel_Main': ERANGEL_MAP_IMG_PATH, "Savage_Main": SANHOK_MAP_IMG_PATH}
 
-MAP_SCALE_COEFFS = {'Desert_Main' : 600, 'Erangel_Main' : 600, "Savage_Main" : 300}
+MAP_SCALE_COEFFS = {'Desert_Main': 600, 'Erangel_Main': 600, "Savage_Main": 300}
 
 PLANE_PATH_HEIGHT = 150080
 
@@ -178,7 +179,7 @@ def buildTimedHeatMap(pointsList, circlesCoords, redCoords, planePath, imgFile_p
 
 def getMatchHeatmap(api, match):
     """
-    Make a heatmappy.py of players activity of the match.
+    Make a heatmap.py of players activity of the match.
     :param match: pubg_python.match object
     :return: PIL Image
     """
@@ -203,7 +204,7 @@ def getMatchHeatmap(api, match):
 
 def getMatchTimedHeatmap(api, match):
     """
-    Make a heatmappy.py of players activity of the match distributed by time.
+    Make a heatmap.py of players activity of the match distributed by time.
     :param match: pubg_python.match object
     :return: list of tuples (int, PIL Image)
     """
@@ -240,15 +241,14 @@ def getMatchTimedHeatmap(api, match):
 
 
 def main(argv):
-    player_name = ''
-    server = None
+    player_name = 'CNN_Algorithm'
+    server = ''
     out_heatmap_file_name = ''
     timed = False
-
     match_number = 0
 
     try:
-        opts, args = getopt.getopt(argv,"hp:s:o:m:t",["playername=","server=","outputfile=","match=","timed"])
+        opts, args = getopt.getopt(argv, "hp:s:o:m:t", ["playername=", "server=", "outputfile=", "match=", "timed"])
     except getopt.GetoptError:
         print('pubgheatmap.py -p <playername> -s <server> [-t] [-o <outputfile>]')
         sys.exit(2)
@@ -256,9 +256,9 @@ def main(argv):
         if opt == '-h':
             print('pubgheatmap.py -p <playername> -s <server> [-t/--timed] [-o <outputfile>]')
             print('Allowed servers: pc-as, pc-eu, pc-krjp, pc-na, pc-oc, pc-sa, pc-sea')
-            print('Example of a static match heatmappy.py: pubgheatmap.py -p tetraquark -s pc-eu -o heatmappy.py.jpg')
-            print('Example of a temporal heatmappy.py: pubgheatmap.py -p tetraquark -s pc-eu -t')
-            print('In temporal heatmappy.py frame, you can use the left or right arrow keys to rewind.')
+            print('Example of a static match heatmap.py: pubgheatmap.py -p tetraquark -s pc-eu -o heatmap.py.jpg')
+            print('Example of a temporal heatmap.py: pubgheatmap.py -p tetraquark -s pc-eu -t')
+            print('In temporal heatmap.py frame, you can use the left or right arrow keys to rewind.')
             print('')
             sys.exit()
         elif opt in ("-p", "--playername"):
@@ -293,8 +293,8 @@ def main(argv):
     print('Done.')
 
     if not timed:
-        print('Trying to build the match heatmappy.py.')
-        # get match heatmappy.py (PIL image file)
+        print('Trying to build the match heatmap.py.')
+        # get match heatmap.py (PIL image file)
         heatmapImg = getMatchHeatmap(api=api, match=match)
 
         # save image to the file
