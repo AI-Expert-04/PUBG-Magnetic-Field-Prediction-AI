@@ -12,14 +12,17 @@ image data -> game data -> training
 ## 패키지
 PUBG_python
 
+
 ## data
 - airplane route image
 - 1 paze
 - 2 paze
+- 3 paze
 
+## 문제 발생
+-heatmappy 라이브러리가 mac os 기준 안됨. 계속 해결해가려고 노력중
 
 ## 정의
-dkdkdk
 
 에란겔 비행기 노선 데이터들을 분석하여 1페이지 자기장을 예측
 1페이지 서클 중심을 기반으로 데이터를 분석하여 2페이지 자기장 예측
