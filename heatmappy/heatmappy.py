@@ -3,7 +3,7 @@ from functools import partial
 import io
 import os
 import random
-from matplotlib.color import LinearSegmentedColormap
+from matplotlib.colors import LinearSegmentedColormap
 import numpy
 from PIL import Image
 
@@ -11,7 +11,6 @@ try:
     from PySide import QtCore, QtGui
 except ImportError:
     pass
-
 
 _asset_file = partial(os.path.join, os.path.dirname(__file__), 'assets')
 
