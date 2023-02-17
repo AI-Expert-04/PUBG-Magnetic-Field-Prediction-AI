@@ -21,6 +21,7 @@ PUBG_python
 - 3 paze
 - 4 paze
 - 5 paze
+- 6 paze
 
 ## 문제 발생
 -heatmappy 라이브러리가 mac os 기준 안됨. 계속 해결해가려고 노력중
