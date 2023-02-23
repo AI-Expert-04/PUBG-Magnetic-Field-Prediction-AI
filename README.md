@@ -29,6 +29,7 @@ PUBG_python
 -heatmappy 라이브러리가 mac os 기준 안됨. 계속 해결해가려고 노력중
 - 2023/02/10 지금도 안됨 계속 오류 
 - 2023/02/22 java를 사용하여 웹 크롤링 생각중 
+- https://github.com/mediusoft/PUBG-heatmap-frontend
 
 
 ## 정의
