@@ -30,6 +30,7 @@ PUBG_python
 - 2023/02/10 지금도 안됨 계속 오류 
 - 2023/02/22 java를 사용하여 웹 크롤링 생각중 
 - https://github.com/mediusoft/PUBG-heatmap-frontend
+- https://github.com/mediusoft/PUBG-heatmap-frontend
 
 
 ## 정의
