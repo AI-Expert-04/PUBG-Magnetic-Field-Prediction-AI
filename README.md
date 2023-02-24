@@ -8,7 +8,7 @@ image data -> game data -> training
 .
 ## 사용 언어
 - Python
-- Jav
+- Java
 
 ## 패키지
 PUBG_python
